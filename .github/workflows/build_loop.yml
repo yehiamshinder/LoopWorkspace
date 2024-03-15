@@ -35,8 +35,8 @@ jobs:
 
           # For each patch, edit comment line (keep the #) then update curl (and remove the #)
 
-          # Submodule Loop patches:
-          # Loop: Filename: customization details
+          Submodule Loop patches:
+          Loop: Filename: customization details
           curl https://github.com/yehiamshinder/Loop/commit/486cfdf725afbbe1fdc34a3b6238d6c1b6691e0a.patch | git apply -v --directory=Loop
           
           # Submodule LoopKit patches:
