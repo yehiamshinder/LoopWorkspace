@@ -37,7 +37,7 @@ jobs:
 
           # Submodule Loop patches:
           # Loop: Filename: customization details
-          curl https://github.com/yehiamshinder/Loop/commit/8587f90dc9699f48055d4290ceacdd38c9042126.patch | git apply -v --directory=Loop
+          curl https://github.com/yehiamshinder/Loop/commit/a70ba45fec9d301a3ace84cc1cd0dcabef287c20.patch | git apply -v --directory=Loop
 
           # Submodule LoopKit patches:
           # LoopKit: Filename: customization details
